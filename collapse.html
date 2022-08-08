@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+</head>
+<body>
+<div class="container mt-5">
+    <div class="accordian" id="parentDiv">
+          <div class="card">
+            <div class="card-header">
+                <div class="h2">
+                    <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#div1">Angular</button>
+                </div>
+            </div>
+          </div>
+            
+        <div class="card">
+            <div class="card-header">
+                <div class="h2">
+                    <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#div2">ReactJs</button>
+                </div>
+            </div>
+        </div>
+           
+        <div class="card">
+            <div class="card-header">
+                <div class="h2">
+                    <button class="btn btn-link"
+                    data-toggle="collapse"
+                    data-target="#div3">VueJs</button>
+                </div>
+             </div>
+        </div>
+        <div class="collapse" id="div1"
+        data-parent="#parentDiv">
+            <div class="card-body">
+                Angular <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, necessitatibus ea quam libero sunt voluptatibus sapiente incidunt ipsam aut placeat harum eaque beatae, atque illo quaerat inventore. Commodi, quis quasi?
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>       

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>        
+</head>
+<body>
+    <div class="container mt">
+        <button class="btn btn-success float-right"
+        data-toggle = 'modal'
+        data-backdrop ='#my-divisiom'>Add <span class="fa fa-plus"></span></button>
+    </div>
+
+    <div id="my-division"
+    class="modal fade"
+    data-keyboard='false'
+    data-backdrop='static'>
+    <div class="modal-dialog modal-sm      modal-dialog-centered">
+        <div class="modal-header">
+            <p class="h5 modal-title">products</p>
+            <button data-dismiss = 'modal' class="close"> &times; </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                    <label>p-id</label>
+                    <input type="number" class="form-control">
+
+                </div>
+                <div>
+                    <label>p-name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <label>p-cost</label>
+                    <input type="number" class="form-control">
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+    </div>
+</body>
+</html>
